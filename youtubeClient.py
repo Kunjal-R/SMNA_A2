@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 
 def youtubeClient():
     try:
-        apiKey = "AIzaSyCV8cUc0AnPS0GB_8YusKJWGHBzc4S3BHA"
+        apiKey = "AIzaSyDPrCqOuHePbfHslDnbBAxeSZNmRoTj6lM"
 
         youtube = build(
             "youtube",

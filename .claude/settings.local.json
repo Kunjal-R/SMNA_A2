@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\RMIT\\\\2026 Sem 1\\\\SMNA\\\\A2\\\\SMNA_A2\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(python -c \"import pandas as pd; df = pd.read_csv\\('comments_cleaned.csv'\\); print\\(df.columns.tolist\\(\\)\\); print\\(df.shape\\); print\\(df.dtypes\\)\")"
+    ]
+  }
+}
